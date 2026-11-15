@@ -1,0 +1,93 @@
+# ==============================================================================
+# Byte-compiled / optimized / Python caches
+# ==============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.pytest_cache/
+
+# ==============================================================================
+# Virtual Environments
+# ==============================================================================
+fyp_env/
+venv/
+.venv/
+env/
+ENV/
+
+# ==============================================================================
+# Data Files & Generated Predictions (Private / Re-creatable)
+# ==============================================================================
+/data/
+data/
+/predictions/
+predictions/
+*.parquet
+*.h5
+*.feather
+*.tar.gz
+*.zip
+*.rar
+*.csv.gz
+
+# ==============================================================================
+# Model Checkpoints and Serialized Weights (Shared privately, DO NOT PUSH)
+# ==============================================================================
+/models/
+models/
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.joblib
+*.pkl
+
+# ==============================================================================
+# Academic Thesis, Reports & Presentations (DO NOT PUSH TO CODE REPO)
+# ==============================================================================
+/S7 THESIS/
+S7 THESIS/
+/report/
+report/
+/report_changes/
+report_changes/
+*.pdf
+*.pptx
+*.ppt
+*.docx
+*.tex
+*.bib
+*.aux
+*.bbl
+*.blg
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+.physiograph-ppt-build/
+
+# ==============================================================================
+# Jupyter Notebooks & Checkpoints
+# ==============================================================================
+/notebooks/
+notebooks/
+*.ipynb
+.ipynb_checkpoints/
+
+# ==============================================================================
+# OS Metadata & Local Environment
+# ==============================================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.env
+wandb/
